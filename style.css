@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background:hsl(218, 28%, 13%);
+    font-family: 'open sans';
+}
+.head{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo{
+    margin: 30px 0 0 50px;
+}
+.nav{
+    margin: 30px 50px 0 0;
+    font-family: 'Raleway';
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.nav li{
+    list-style: none;
+    padding: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:  hsl(0, 0%, 100%);
+    margin-right: 20px;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+.intro{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 700px;
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway';
+}
+.text h1{
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-size: 2.5em;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.text h5{
+    width: 630px;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    padding: 5px;
+    text-align: center;
+}
+.text button{
+    font-size: 1.2em;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    border: none;
+    padding: 20px 100px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    outline: none;
+    color: hsl(0, 0%, 100%);
+    background: hsl(176, 68%, 64%);
+    font-weight: 700;
+}
+.text button:hover{
+
+    background:  hsl(176, 74%, 79%);
+    background-blend-mode: multiply;
+}
+.bg{
+    background: url(./images/bg-curvy-desktop.svg);
+    background-position: center;
+    background-size: cover;
+}
+.benefit,.befit{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 50px 140px 30px 140px;
+
+}
+.benefit1{
+    width: 400px;
+    color: hsl(0, 0%, 100%);
+ text-align: center;
+ margin-right: 30px;
+}
+.benefit1 img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.benefit1 h3{
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.benefit1 p{
+    font-size: 1.07em;
+    padding: 5px;
+    font-weight: 400;
+}
+.productive{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 150px 70px;
+}
+.productimg{
+    margin: 30px;
+}
+.pcontent{
+    margin:80px 30px 0 30px;
+    color: hsl(0, 0%, 100%);
+}
+.pcontent h1{
+ font-size: 2.5em;
+ margin-bottom: 15px;
+}
+.pcontent p{
+    margin-bottom: 15px;
+}
+.pcontent a{
+    text-decoration: none;
+    color:hsl(176, 68%, 64%) ;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding: 5px;
+    text-transform: capitalize;
+}
+.pcontent img{
+    margin-top: 20px;
+}
+.testmonial{
+    margin: 100px 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.user1{
+    background: hsl(219, 30%, 18%);
+    margin-right: 30px;
+    box-shadow: 10px 10px 5px rgb(22, 22, 22);
+    color: hsl(0, 0%, 100%);
+}
+.user1 p{
+    margin: 40px 20px;
+    font-size: 1.2em;
+    
+}
+.user1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.user1 h4{
+    position: relative;
+    bottom: 60px;
+    left: 90px;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+.user1 h6{
+    position: relative;
+    bottom: 50px;
+    left: 90px;
+   font-weight: 400;
+    font-size: 12px;
+}
+.mainemail{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    background:  hsl(217, 28%, 15%);
+    width: 800px;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+.email h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.email p{
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 20px 40px ;
+}
+.email form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.email input{
+    padding: 15px;
+    outline: none;
+    border: none;
+    width: 60%;
+    border-radius: 60px;
+    margin-right: 20px;
+}
+.email button{
+    background: hsl(176, 68%, 64%);
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 15px 30px ;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2em;
+}
+.footer{
+    background: hsl(216, 53%, 9%);
+    padding: 120px 70px 200px 70px;
+
+}
+.log{
+    margin: 70px 20px 20px 50px;
+}
+.fcontain{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: hsl(0, 0%, 100%);
+}
+.location{
+    width: 400px;
+    margin-right: 30px;
+}
+.location img{
+    position: relative;
+    top: 25px;
+    right: 30px;
+}
+.location p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.contact{
+    margin-right: 30px;
+}
+.contact p{
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.contact img{
+    margin-right: 20px;
+    
+}
+.fnav{
+    margin-right: 30px;
+}
+.fnav li{
+    list-style: none;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.social i{
+    color: hsl(0, 0%, 100%);
+    margin-right: 20px;
+}
+
+@media screen and (max-width:375px){
+   body{
+       overflow-x: hidden;
+   }
+   .head{
+       justify-content: space-between;
+   } .logo{
+        margin: 30px 150px 0 10px;
+        
+    }
+    .nav{
+        margin: 30px 5px 0 0;
+     
+        padding-right: 2px;
+    }
+    
+    .nav li{
+    
+        padding: 0px;
+    }
+    .nav li a{
+       
+        margin-right: 40px;
+    }
+    
+
+    
+    .intro{
+        margin: 30px ;
+        display: inline-block;
+    }
+    .content{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    
+    .bg{
+        background: url(./images/bg-curvy-mobile.svg);
+        background-position: center;
+        background-size: cover;
+    }
+    .benefit{
+       display: flex;
+       justify-content: center;
+        margin: 50px 0px 30px 120px;
+    
+    }
+    .benefit,.befit{
+        flex-direction: column;
+    }
+    .benefit1{
+        width: 500px;
+        color: hsl(0, 0%, 100%);
+     text-align: center;
+     margin-right: 30px;
+     margin-right: 0px;
+    }
+    .productive{
+    
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+    .productimg{
+        margin: 10px;
+    }
+    .pcontent{
+        width: 600px;
+        margin:20px 10px 0 40px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .pcontent img{
+        margin-top: 20px;
+    }
+    .pcontent p{
+        font-size: 1.7em;
+        font-weight: 400;
+    }
+       .testmonial{
+           margin: 100px 60px;
+       }
+    .testmonial{
+        margin: 20px 20px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .user1{
+        width: 600px;
+       
+        margin-right: 20px;
+        margin-left: 30px;
+
+        margin-bottom: 30px;
+    }
+    
+    .user1 img{
+      
+        border-radius: 30px;
+        
+    }
+    .user1 h4{
+        position: relative;
+        bottom: 60px;
+        left: 90px;
+        font-size: 1em;
+        text-transform: capitalize;
+    }
+    
+    .mainemail{
+        display: inline-flex;
+        justify-content: center;
+    }
+    .email{
+        background:  hsl(217, 28%, 15%);
+        width: 500px;
+        color: hsl(0, 0%, 100%);
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        top: 150px;
+        margin-left: 100px;
+    }
+    .email h1{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 2.5em;
+    }
+    .email p{
+        font-size: 1.4em;
+       
+    }
+    .email form{
+        margin-bottom: 40px;
+    }
+    .email input{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .email button{
+        padding: 15px 70px ;
+    }
+    .footer{
+        width: 800px;
+        background: hsl(216, 53%, 9%);
+        padding-top: 120px;
+    
+    }
+    .log{
+        margin: 70px 30px 20px 30px;
+    }
+    .fcontain{
+        flex-direction: column;
+    }
+    .location{
+        width: 600px;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    .location img{
+        position: relative;
+        top: 25px;
+        right: 30px;
+    }
+    .location p{
+        margin-left: 20px;
+        font-size: 1.5em;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .contact{
+        margin-right: 30px;
+        margin-bottom: 50px;
+    }
+    .contact p{
+        font-size: 1.2em;
+        margin-left: 20px;
+    }
+    
+    .fnav{
+        margin-right: 30px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
+    .fnav li{
+        list-style: none;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+}
